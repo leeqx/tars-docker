@@ -29,6 +29,8 @@ root       903     1  0 10:22 pts/0    00:00:00 /usr/local/app/tars/tarspatch/bi
 root       939     1  0 10:22 ?        00:00:00 rsync --address=172.17.0.2 --daemon --config=/usr/local/app/tars/tarspatch/conf/rsync.conf
 root       941     1  0 10:22 ?        00:00:00 /usr/local/app/tars/tarsnode/bin/tarsnode --locator=tars.tarsregistry.QueryObj@tcp -h  172.17.0.2 -p 17890 --config=/usr/local/app/tars/tarsnode/conf/tarsnode.conf
 ```
+在访问：localhost:9090 
+
 ## 配置
 * 如果管理台链接哪个主控是在这个配置中进行配置的：
 /usr/local/resin/webapps/tars/WEB-INF/classes/tars.conf
